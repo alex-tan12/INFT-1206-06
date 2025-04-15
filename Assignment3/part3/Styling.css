@@ -1,0 +1,134 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 10px; /* sitewide 10px */
+  }
+  
+  /* Layout */
+
+  section {
+    float: left;
+    width: 50%;
+  }
+
+  aside {
+    float: left;
+    width: 30%;
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  
+
+  h1 {
+    font-family: "Prata"; /* defined a font family */
+    font-size: 3rem; /* defined the font size height to 3rem */
+    text-align: center; /* centred the text */
+    letter-spacing: 1.2px; /* added letter spacing */
+  }
+  
+  h2 {
+    font-family: "Slabo 27px";/* sets the font family */
+    font-size: 1.5rem;/* sets the size of the text */
+    letter-spacing: 0.5px;/* added space to the letters */
+  }
+  
+  p {
+    font-family: "Libre Baskerville";/* sets font for the paragraph */
+    font-size: 1rem;/* seys the soze of the text */
+    line-height: 1.7;/* defined the demension of the text area */
+  }
+  
+  a {
+    font-family: "Libre Baskerville";/* sets font family fot the link */
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;/* removes underline on hover */
+  }
+  
+  a:visited {
+    color: #a66;/* changes link color when visited the link */
+  }
+  
+  a:focus {
+    outline: none;/* removes default outline */
+  }
+  
+  ul {
+    font-size: 2em;/* defined font size for unordered list */
+  }
+  
+  .navigation{
+   color: #a66;/* sets text color */
+    list-style: none;/* removing the bullet points */
+    text-decoration: none;/* removed the text decoration */
+    display: block;/* defining the type of box as a block element */
+  }
+  
+  .navigation li button a {
+    text-decoration: none; /* removes underline from links */
+    font-family: "DM Mono"; /* sets font family */
+    color:#a66; /* changed the color */
+    margin: 20px 20px 20px 20px; /* added margin to the element */
+    border-radius: 10px;  /* Rounds button edges */
+    font-size: 1.5em; /* sets a font size */
+    width: 6em; /* defined a width */
+    display: block; /* determined that the full width is clickable */
+  }
+  
+  .navigation li {
+    padding: 1em; /* added padding to the element */
+  }
+  
+  ol {
+    font-size: 1.5em; /* sets font size to the list */
+  }
+  
+  li {
+    line-height: 1.7; /* determined the dimension of the text in the list */
+  }
+  
+  .course-choices{
+    font-size: 1.5em; /* sets font size for 1.5em */
+  } 
+  
+  a:hover, a:focus {
+    text-decoration: none; /* Remoed inderline */
+    color: #a66; /* changed color on hover */
+  }
+  
+nav ul li {
+    border:1px solid; /* added a border for the navigation items */
+    border-color: #a66; /* changed the border color */
+    margin-top: 20px; /* added margin to the list */
+    padding: 10px; /* added padding inside the items */
+    list-style-type: none; /*removed the bullet points*/
+    
+}

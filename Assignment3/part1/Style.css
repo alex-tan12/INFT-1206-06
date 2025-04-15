@@ -1,0 +1,41 @@
+/* styling the body of the page, setting the background color to white and text color to dark gray */
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+/*styling the main heading, doing a hotpink color and a dotted purple bottom border  */
+  h1 {
+    color: hotpink;
+    font-size: 2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-bottom: 10px dotted purple;
+  }
+/* Syling the subheading with a small font-size */
+  h2 {
+    font-size: 1.5em;
+  }
+/*Syling the job title class with a gray color and a bold font size */
+  .job-title {
+    color: #999999;
+    font-weight: bold;
+  }
+/*Syling an unordered list with background color of gray, a solid purple border and padding*/
+  ul {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding: 4% 4% 5% 5%;
+  }
+/*changed links color with bright red */
+  a:link,
+  a:visited {
+    color: #fb6542;
+    
+  }
+/* styling the a link to change the color to green when i hover and removes the underline. */
+  a:hover {
+    color: green;
+    text-decoration: none;
+  }

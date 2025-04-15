@@ -1,0 +1,42 @@
+/*Name: Mohammed Karim El Moussadeq
+  File name: index.html
+  Date: 21 february 2025
+  Description: editing the css to meet the page requiremenrt for assignment 3
+*/
+
+/*Sets the default font family for the entire HTML*/
+html {
+    font-family: sans-serif;
+  }
+
+/*Styling div elements*/  
+div {
+    /*Added a solid border with a rounded corner radius with a red color*/
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(125, 0, 0);
+    /*Sets the background color to red and text color to white*/
+    background-color: red;
+    color: white;
+    /*Added a text shadow */
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1);
+    /*Sets the font size of the text inside the div*/
+    font-size: 18px;
+    /*Aligns text vertically in the middle*/
+    vertical-align: middle;
+    /*Defined the width and height of the div*/
+   width: 200px;
+   height: 200px;
+   /* Used a flexbox for centering the content*/
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   /*Centers the div horizontally*/
+   margin-left: auto;
+   margin-right: auto;
+   /*Added an inset and outer box shadow effect*/
+   box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.551), 5px 5px 5px rgba(0,0,0,0.5),
+    inset -10px -10px 20px -5px  rgba(0, 0, 0, 0.25);
+   
+}  
